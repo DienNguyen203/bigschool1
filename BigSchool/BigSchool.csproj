@@ -202,10 +202,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202006050117284_add-migration %27IntialModel%27.cs" />
-    <Compile Include="Migrations\202006050117284_add-migration %27IntialModel%27.Designer.cs">
-      <DependentUpon>202006050117284_add-migration %27IntialModel%27.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\202006050150390_CreateTableCourse.cs" />
     <Compile Include="Migrations\202006050150390_CreateTableCourse.Designer.cs">
       <DependentUpon>202006050150390_CreateTableCourse.cs</DependentUpon>
@@ -236,9 +232,6 @@
     <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="ApplicationInsights.config">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -299,9 +292,6 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202006050117284_add-migration %27IntialModel%27.resx">
-      <DependentUpon>202006050117284_add-migration %27IntialModel%27.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202006050150390_CreateTableCourse.resx">
       <DependentUpon>202006050150390_CreateTableCourse.cs</DependentUpon>
     </EmbeddedResource>
