@@ -7,13 +7,13 @@ namespace BigSchool.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class CreateTableCourse : IMigrationMetadata
+    public sealed partial class innit : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(CreateTableCourse));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(innit));
         
         string IMigrationMetadata.Id
         {
-            get { return "202006050150390_CreateTableCourse"; }
+            get { return "202006190150502_innit"; }
         }
         
         string IMigrationMetadata.Source
